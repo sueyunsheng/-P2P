@@ -5,3 +5,6 @@ tracker作为服务端，默认客户端知道服务端的Ip，以及默认客�
 客户端会发送request给服务端，服务端会将先前连接的客户端地址发送给客户端，客户端会向先前的客户端地址发送hello确定连接
 客户端开线程监听后面加入的客户端的信息
 客户端会开两个线程，一个用于发送给其他客户端索取文件，一个用于接收其他客户端发送过来的实验
+
+本实验是一个teamwork，实现了java和python之间的通信，关于java的代码详情见：https://github.com/DRAGONKAZUYA/P2P-javamultithread
+
